@@ -21,8 +21,8 @@ John Mezzanotte
       If the correct type of left parenthesis is not on the top of the stack, then the string is unbalanced. 
 #Usage of balanced_parens.py 
 from the balanced_parens script use the function is_balanced:
--This function takes a single string which is the parenthesis in question. 
--The function will return a boolean value, true if balanced, false otherwise. 
+	-This function takes a single string which is the parenthesis in question. 
+	-The function will return a boolean value, true if balanced, false otherwise. 
 
       ```
       from pystacks import balanced_parens as bp 
