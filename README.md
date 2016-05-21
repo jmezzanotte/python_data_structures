@@ -25,16 +25,18 @@ John Mezzanotte
  - The function will return a boolean value, true if balanced, false otherwise. 
 
       ```
-      from pystacks import balanced_parens as bp 
+	from pystacks import balanced_parens as bp 
 
-      test_cases = ['{[]}', '[{(([]))}]', '{(])}', '[{([}])}]', '(}']
+	test_cases = ['{[]}', '[{(([]))}]', '{(])}', '[{([}])}]', '(}', '1 + (1 + 9)', '5 * (20 - 3)']
 
-      for case in test_cases:
-	       print(bp.is_balanced(case))
+
+	for case in test_cases:
+		print(bp.is_balanced(case))
+
       
       ```
       
       From the above example, you would recieve the following output: 
-        True True False False False
+        True True False False False True True
       
     
