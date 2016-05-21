@@ -8,7 +8,8 @@ John Mezzanotte
 5-20-2016
 
 #Packages
--pystacks
+__
+#pystacks
   - pystacks is a package of python scripts containing solutions to programming problems that can be solved by using stacks. The 
   package contains the following scripts
   - balanced_parens.py 
