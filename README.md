@@ -20,9 +20,9 @@ John Mezzanotte
       is pushed onto the stack. Every time a right parenthesis occurs a matching left parenthesis is popped off the stack. 
       If the correct type of left parenthesis is not on the top of the stack, then the string is unbalanced. 
 #Usage of balanced_parens.py 
-from the balanced_parens script use the function is_balanced:
-	-This function takes a single string which is the parenthesis in question. 
-	-The function will return a boolean value, true if balanced, false otherwise. 
+-is_balanced Function
+-This function takes a single string which is the parenthesis in question. 
+-The function will return a boolean value, true if balanced, false otherwise. 
 
       ```
       from pystacks import balanced_parens as bp 
